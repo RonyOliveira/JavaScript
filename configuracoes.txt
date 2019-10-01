@@ -1,1 +1,3 @@
-Arquivo de teste
+Aula 04
+1 - Explicado sobre a organização de arquivos e a importancia de ser um programador organizado.
+2 - Criado o primeiro código HTML
