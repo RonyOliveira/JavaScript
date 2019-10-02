@@ -1,0 +1,33 @@
+1 - Simbolos de comentário em JS.
+// Comenta uma linha
+/* */ Comenta um trexo de código
+
+2 - Variáveis
+* No JS moderno, além da palavra var (ára definição das variáveis), podemos usar a palavra let.
+* No JS existem três formas de se demilitar uma string nas variáveis. São elas:
+    1 - ""
+    2 - ''
+    3 - ``
+*As variáveis no JS são chamadas IDENTIFICADORES e possuem algumas regras para identificação.
+    1 - Podem começar com letras, $ ou _.
+    2 - Não podem começar com números.
+    3 - È possível usar letras ou números.
+    4 - É possível usar acentos e símbolos.
+    5 - Não podem conter espaços.
+    6 - Não podem ser palavras reservadas.
+    7 - MAIÚSCULO é diferente de maiúsculo ou Maiusculo.
+    8 - Use nomes coerentes para seus identificadores.
+-> TIPOS DE DADOS    
+*Os tipos primititvos primordiais são:
+    1 - number ->  
+        1.1 -> infinity
+        1.2 -> NaN
+    2 - string ->
+    3 - boolean ->
+    4 - null
+    5 - undefined
+    6 - object
+        6.1 -> array
+    7 - function
+
+
