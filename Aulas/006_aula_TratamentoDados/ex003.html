@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primeiro Programa</title>
+
+    <!--INÍCIO DO ESTILO DA PÁGINA-->
+    <style>
+        body {
+            background-color: rgb(103, 103, 184);
+            color: white;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: rgb(188, 231, 31);
+        }
+    </style>
+    <!--FIM DO ESTILO DA PÁGINA-->
+
+</head>
+
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Este é o início do curso de JavaScript básico do Curso em Vídeo.</p>
+    <script>
+        /*window.alert('Estou aprendendo a programar'); //Exibe um alerta na janela do Navegador com um botão OK
+        window.confirm('Está gostando de JavaScript?'); //Exibe uma mensagem na tela com botão OK e Cancelar*/
+        var n1 = Number.parseInt(window.prompt('Digite um número:')) //Exibe um mensagem na tela com um campo para digitação um OK e Cancelar
+        var n2 = Number.parseInt(window.prompt('Digite outro número:'))
+        var s = n1 + n2
+        window.alert('A soma é igual a: ' + s)
+    </script>
+</body>
+
+</html>
