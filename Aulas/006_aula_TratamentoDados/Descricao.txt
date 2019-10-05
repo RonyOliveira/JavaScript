@@ -1,1 +1,21 @@
 Utilizando variáveis para receber o valor digitado
+1 - Para definir vairáveis em JS podemos utilizar:
+    1.1 var
+    1.2 let
+2 - Para realizar a conversão de string para Inteiros
+    2.1 - Number.parseInt() -> Neste caso convertemos o valor para um valor interiro
+    2.2 - Number() -> neste caso o próprio JS se encarrega de fazer a conversão de acordo com o que for digitado.
+3 - Para realizar a conversão de um valor numério para string
+    3.1 - n.toString()
+    3.2 - String(n)
+
+## Formatação de novas strings
+1 - Sem INTERPOLAÇÃO -> 'Eu estou estudando s'
+2 - Com concatenação -> 'Eu estou estudando ' + s
+3 - TEMPLATE STRING -> Utilizaremos o PLACEHOLDER ${}
+                       Ex: `Estou aprendendo ${s}`
+4 - Outras formas de formatação de strings
+    4.1 - s.length -> Especifica quantos caracteres a string tem.
+    4.2 - s.toUpperCase() -> Converte toda a string para letras maiúsculas.
+    4.3 - s.toLowerCase() -> Converte toda a string para letras minúsculas.
+    
